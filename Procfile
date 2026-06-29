@@ -1,1 +1,1 @@
-worker: node language-roles.js
+worker: node mega-bot.js
