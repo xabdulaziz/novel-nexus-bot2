@@ -114,7 +114,7 @@ const commands = [
     .setDescription('📚 سجّل كتاباً أنهيت قراءته')
     .addStringOption(o => o.setName('title').setDescription('اسم الكتاب').setRequired(true)),
   new SlashCommandBuilder()
-    .setName('mybookList')
+    .setName('mybooklist')
     .setDescription('📖 شوف قائمة كتبك'),
   new SlashCommandBuilder()
     .setName('bookstats')
