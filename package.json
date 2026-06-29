@@ -1,0 +1,11 @@
+{
+  "name": "novel-nexus-bot",
+  "version": "1.0.0",
+  "main": "language-roles.js",
+  "scripts": {
+    "start": "node language-roles.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
