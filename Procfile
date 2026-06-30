@@ -1,1 +1,1 @@
-worker: node mega-bot.js
+worker: node index.js
