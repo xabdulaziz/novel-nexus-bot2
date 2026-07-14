@@ -1,11 +1,13 @@
 {
   "name": "novel-nexus-bot",
   "version": "1.0.0",
-  "main": "language-roles.js",
+  "main": "index-v2.js",
   "scripts": {
-    "start": "node language-roles.js"
+    "start": "node index-v2.js"
   },
   "dependencies": {
-    "discord.js": "^14.0.0"
+    "discord.js": "^14.0.0",
+    "express": "^4.18.0",
+    "express-session": "^1.17.3"
   }
 }
