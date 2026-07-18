@@ -9,7 +9,14 @@ const CLIENT_ID = process.env.CLIENT_ID;
 const GUILD_NAME = process.env.GUILD_NAME || 'T.G.W';
 const SERVER_NAME = process.env.SERVER_NAME || 'T.G.W';
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+  ]
+}); 
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 // قاعدة بيانات في الذاكرة
