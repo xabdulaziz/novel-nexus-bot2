@@ -1,2 +1,2 @@
 web: node server.js
-worker: node index-v2.js
+worker: node index-v3.js
