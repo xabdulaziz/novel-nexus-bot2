@@ -1,0 +1,26 @@
+{
+  "warnings": {},
+  "blacklist": [],
+  "accessLogs": [],
+  "actionLogs": [],
+  "ipLogs": [],
+  "modLogs": [],
+  "books": {},
+  "wordCount": {},
+  "sprints": {},
+  "awards": {},
+  "trivia": {},
+  "activeTriviaGame": null,
+  "points": {},
+  "scheduledAnnouncements": [],
+  "commands": {},
+  "settings": {
+    "prefix": "!",
+    "welcome": "",
+    "autoRole": false,
+    "dailyQuoteChannel": null,
+    "triviaChannel": null,
+    "languageRoles": false
+  },
+  "loginAttempts": {}
+}

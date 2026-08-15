@@ -1,19 +1,19 @@
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-// shared-db.js — قاعدة بيانات مشتركة
-// يستخدمها server.js و mega-bot-v2.js
+// shared-db.js — قاعدة بيانات مشتركة (in-memory)
+// يستخدمها البوت والداشبورد
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 const db = {
-  warnings:  {},  // { userId: [{reason,by,byId,time,removed,removedBy,removedTime}] }
-  blacklist: [],  // [{ type,targetId,name,scope,channelId,addedAt }]
-  accessLogs:[],  // سجل دخول الداشبورد
-  actionLogs:[],  // سجل التعديلات
-  ipLogs:    [],  // سجل الـ IPs
-  modLogs:   [],  // سجل الإدارة
-  books:     {},  // { userId: [{title,date}] }
-  wordCount: {},  // { userId: {today,total,goal} }
-  sprints:   {},  // { channelId: {active,endTime,participants} }
-  awards:    {},  // { userId: {reads,words} }
-  trivia:    {},  // { userId: {points,correct} }
+  warnings: {},     // { userId: [{reason,by,byId,time,removed,removedBy,removedTime}] }
+  blacklist: [],    // [{ type,targetId,name,scope,channelId,addedAt }]
+  accessLogs: [],   // سجل دخول الداشبورد
+  actionLogs: [],   // سجل التعديلات
+  ipLogs: [],       // سجل الـ IPs
+  modLogs: [],      // سجل الإدارة
+  books: {},        // { userId: [{title,date}] }
+  wordCount: {},    // { userId: {today,total,goal} }
+  sprints: {},      // { channelId: {active,endTime,participants} }
+  awards: {},       // { userId: {reads,words} }
+  trivia: {},       // { userId: {points,correct} }
   activeTriviaGame: null,
 };
 
